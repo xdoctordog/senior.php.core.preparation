@@ -1,0 +1,17 @@
+name:1 Cap
+price:1$
+price:2$
+name:2 Hat
+                
+name:4 T-shirt
+price:4$
+name:5 Trousers
+price:5$
+name:6 Socks
+price:6$
+name:7 Jeans
+price:7$
+name:8 Clocks
+price:8$
+name:9 Cap
+price:9$

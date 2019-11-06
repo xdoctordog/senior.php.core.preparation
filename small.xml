@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<products>
+    <last_updated>2019-11-30 10:13:00</last_updated>
+    <product>
+        <name>Cap</name>
+        <price>10$</price>
+    </product>
+    <product>
+        <name>Hat</name>
+        <price>12$</price>
+    </product>
+    <product>
+        <name>T-shirt</name>
+        <price>15$</price>
+    </product>
+    <product>
+        <name>Trousers</name>
+        <price>17$</price>
+    </product>
+    <product>
+        <name>Socks</name>
+        <price>7$</price>
+    </product>
+    <product>
+        <name>Jeans</name>
+        <price>27$</price>
+    </product>
+    <product>
+        <name>Clocks</name>
+        <price>37$</price>
+    </product>
+</products>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<products>
+    <created>2009-11-30 10:13:00
+        <product>
+            <name>err WWRONG Jeans</name>
+            <price>%%%@ERROR$</price>
+        </product>
+    </created>
+    <last_updated>2019-11-30 10:13:00</last_updated>
+    <product>
+        <name>err Wrong Cap</name>
+        <price>!ERR$</price>
+    </product>
+    <price>err #@@ERR$-5</price>
+    <product_container>
+        <product>
+            <name>1 Cap</name>
+            <price>1$</price>
+        </product>
+        <price>err #@@ERR$-4</price>
+        <product>
+            <price>2$</price>
+            <name>2 Hat
+                <price>err #@@ERR$-3</price>
+                <product>
+                    <name>err WRONG Trousers</name>
+                    <price>err #@@ERR$</price>
+                </product>
+            </name>
+            <price>3$
+                <product>
+                    <name>err WRONGG Socks</name>
+                    <price>err ###ERRR$</price>
+                </product>
+            </price>
+            <product>
+                <name>err WRONG Hat</name>
+                <price>err ##ERR$</price>
+            </product>
+        </product>
+    </product_container>
+    <product_container>
+        <product>
+            <name>4 T-shirt</name>
+            <price>4$</price>
+        </product>
+        <product>
+            <name>5 Trousers</name>
+            <price>5$</price>
+        </product>
+        <product>
+            <name>6 Socks</name>
+            <price>6$</price>
+        </product>
+        <product>
+            <name>7 Jeans</name>
+            <price>7$</price>
+        </product>
+        <product>
+            <name>8 Clocks</name>
+            <price>8$</price>
+        </product>
+        <product>
+            <name>9 Cap</name>
+            <price>9$</price>
+        </product>
+    </product_container>
+</products>
