@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product category="software">
+        <sku>soft_widget_reporting</sku>
+        <sub_category>Business Analysis</sub_category>
+        <name>Widget Reporting</name>
+        <price>4500</price>
+    </product>
+    <product category="software">
+        <sku>soft_pro_reporting</sku>
+        <sub_category>Business Analysis</sub_category>
+        <name>Pro Reporting</name>
+        <price>2300</price>
+    </product>
+    <product category="storage">
+        <sku>soft_tapes_abound</sku>
+        <sub_category>Tape Systems</sub_category>
+        <name>Tapes Abound</name>
+        <price>2300</price>
+    </product>
+    <product category="storage">
+        <sku>soft_widget_100_series</sku>
+        <sub_category>Disk Systems</sub_category>
+        <name>Widget100 Series</name>
+        <price>6500</price>
+    </product>
+</products>
