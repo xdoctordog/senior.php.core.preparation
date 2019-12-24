@@ -30,9 +30,17 @@ $func = function($value) {
 };
 var_dump(array_map($func, $queue));
 
-function someFunc ($value) {
+// Не изменяет значения исходного массива даже при передечи по ссылке &$value
+function someFunc (&$value) {
+    $value = ' == ' . $value . ' == ';
     return '[someFunc]' . $value . '[/someFunc]';
 };
-var_dump(array_map('someFunc', $queue));
 
-var_dump(array_map($func, array_map('someFunc', $queue)));
+// Можно передавать по имени функцию
+$result = array_map('someFunc', $queue);
+
+var_dump($result);
+var_dump($queue);
+
+// Либо в качестве обьекта анонимную функцию
+var_dump(array_map($func, $result));

@@ -34,6 +34,10 @@ setcookie("Some-key-fEpub", $value, time() + 3600, "#pub&", "x.blog.example.com"
 $value = 'Some-value-eFpub';
 setcookie("Some-key-eFpub", $value, time() + 3600, "/", "x.blog.example.com");
 
+// Родительский Path может установить куку для родительского Path и эта кука будет действовать и на текущем Path
+$value = 'Some-value-HFpub';
+setcookie("Some-key-HFpub", $value, time() + 3600, "/", "y.x.blog.example.com");
+
 /**
  * Summary: На вложенном дочернем уровне действуют родительские cookie.
  * Т.е. куки которые прилетели для дочернего урла при вызове родительского.
